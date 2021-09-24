@@ -412,9 +412,6 @@ article {
 	height: 53%;
 }
 
-.lien_fort:hover {
-	box-shadow: 3px 3px 5px black;
-}
 
 .photo_fort {
 	object-fit: cover;
@@ -467,7 +464,7 @@ article {
 	box-shadow: 3px 3px 5px black;
 }
 
-/* Fin Les plus populaires */ /* Fin Les plus populaires */ /* Fin Les plus populaires */ /* Fin Les plus populaires */
+/* Fin Activités à Marseille */ /* Fin Activités à Marseille */ /* Fin Activités à Marseille */ /* Fin Activités à Marseille */
 
 /* Début Footer */ /* Début Footer */ /* Début Footer */ /* Début Footer */ /* Début Footer */ /* Début Footer */
 
@@ -492,6 +489,12 @@ footer {
 }
 
 /* Fin du footer */ /* Fin du footer */ /* Fin du footer */ /* Fin du footer */ /* Fin du footer */ /* Fin du footer */ 
+
+@media all and (min-width: 1440px){
+
+
+}
+
 
 @media all and (max-width: 1024px){
 
@@ -603,6 +606,7 @@ footer {
 	{
 		margin-left: 0;
 		margin-bottom: 5%;
+		height: 50px;
 	}
 
 	.cercle 
@@ -646,6 +650,17 @@ footer {
 		border-radius: 0;
 	}
 
+	.description_populaires
+	{
+
+		margin-top: -10px;
+	}
+
+	.etoiles2
+	{
+		padding-top: 15px;
+	}
+
 	/* Fin les plus populaires */ /* Fin les plus populaires */ /* Fin les plus populaires */ /* Fin les plus populaires */
 
 	/* Début Hébergements */ /* Début Hébergements */ /* Début Hébergements */ /* Début Hébergements */ /* Début Hébergements */
@@ -653,6 +668,7 @@ footer {
 	.hebergements 
 	{
 		margin: 0;
+		padding: 0;
 		border-radius: 0;
 		width: 100%;
 		background-color: white;
@@ -660,28 +676,78 @@ footer {
 
 	.photo_hebergements
 	{
-		width: 80%;
+		width: 90%;
 	}
 
 	/* Fin Hébergements */ /* Fin Hébergements */ /* Fin Hébergements */ /* Fin Hébergements */ /* Fin Hébergements */
 
 	/* Début Activités */ /* Début Activités */ /* Début Activités */ /* Début Activités */ /* Début Activités */
-
-	.photo_activites
-	{
-		width: 90%;
-	}
-
-	.lien_activites
-	{
-		width: 90%;
-	}
-
 	.Marseille
 	{
 		display: flex;
 		flex-direction: column;
 	}
+
+	.titre_activites
+	{
+		display: flex;
+		align-items: center;
+	}
+
+	.titre_activites2 
+	{
+		margin-bottom: 5px;
+	}
+
+	.photo_activites
+	{
+		height: 195px;
+	}
+
+	.photo_grande 
+	{
+		height: 141px;
+		margin-bottom: 15px;
+	}
+
+	.photo_fort
+	{
+		height: 141px;
+	}
+
+	.photo_iles 
+	{
+		height: 141px;
+	}
+
+	.photo_dame
+	{
+		height: 141px;
+	}
+
+	
+	.photo_parc
+	{
+		height: 141px;
+	}
+
+	.photo_x2
+	{
+		width: 100%;
+
+	}
+
+	.lien_fort
+	{
+		margin-bottom: 30px;
+	}
+	.lien_activites
+	{
+		width: 95%;
+		margin-bottom: 30px;
+	}
+
+	
 
 	/* Fin Activités */ /* Fin Activités */ /* Fin Activités */ /* Fin Activités */ /* Fin Activités */
 
