@@ -665,6 +665,12 @@ footer {
 
 	/* Début Hébergements */ /* Début Hébergements */ /* Début Hébergements */ /* Début Hébergements */ /* Début Hébergements */
 
+	main 
+	{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
 	.hebergements 
 	{
 		margin: 0;
@@ -696,7 +702,7 @@ footer {
 
 	.titre_activites2 
 	{
-		margin-bottom: 5px;
+		margin-top: -5px;
 	}
 
 	.photo_activites
@@ -753,11 +759,7 @@ footer {
 
 	/* Début Footer */ /* Début Footer */ /* Début Footer */ /* Début Footer */ /* Début Footer */
 
-	main 
-	{
-		display: flex;
-		flex-direction: column-reverse;
-	}
+	
 
 	.a_propos
 	{
