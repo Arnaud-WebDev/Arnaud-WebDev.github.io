@@ -1,5 +1,6 @@
-@font-face {
-	font-family: Raleway, sans-serif;
+@font-face 
+{
+	font-family: Raleway;
 }
 
 body {
@@ -170,7 +171,7 @@ input {
 	align-items: center;
 	box-shadow: 3px 3px 5px #DEEBFF;
 	border-radius: 25px;
-	height: 6vh;
+	height: 8vh;
 }
 
 .fas2 {
@@ -196,6 +197,7 @@ input {
 	border: 2px solid #DEEBFF;
 	border-radius: 25px;
 	height: 55px;
+	height: 8vh;
 }
 
 .icone2 {
@@ -358,8 +360,12 @@ aside {
 	border-radius: 20px 0 0 20px;
 }
 .description_populaires {
- 	line-height: 1.3em;
  	padding: 3px;
+ 	font-size: 0.7rem;
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: space-between;
+
  }
  .etoiles {
  	padding-top: 14px;
@@ -493,7 +499,7 @@ footer {
 /* Début responsive */ /* Début responsive */ /* Début responsive */ /* Début responsive */ /* Début responsive */ /* Début responsive *//* Début responsive */ /* Début responsive */ /* Début responsive */
 
 
-@media all and (max-width: 736px){
+@media all and (max-width: 414px){
 
 	/* Début du Header */ /* Début du Header */ /* Début du Header */ /* Début du Header */ /* Début du Header */
 
@@ -782,7 +788,7 @@ footer {
 	/* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */
 }
 
-@media all and (max-width: 1024px){
+@media all and (min-width: 415px) and (max-width: 1024px){
 
 	/* Début du Header */ /* Début du Header */ /* Début du Header */ /* Début du Header */ /* Début du Header */
 
