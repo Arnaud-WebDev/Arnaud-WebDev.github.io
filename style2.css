@@ -664,6 +664,11 @@ footer {
 		padding-top: 15px;
 	}
 
+	.photo_populaires3
+	{
+		width: 78%;
+	}
+
 	/* Fin les plus populaires */ /* Fin les plus populaires */ /* Fin les plus populaires */ /* Fin les plus populaires */
 
 	/* Début Hébergements */ /* Début Hébergements */ /* Début Hébergements */ /* Début Hébergements */ /* Début Hébergements */
@@ -962,6 +967,17 @@ footer {
 		padding-top: 15px;
 	}
 
+	.photo_populaires2
+	{
+		width: 28%;
+	}
+
+	.photo_populaires3
+	{
+		width: 28%;
+	}
+
+
 	/* Fin les plus populaires */ /* Fin les plus populaires */ /* Fin les plus populaires */ /* Fin les plus populaires */
 
 	/* Début Hébergements */ /* Début Hébergements */ /* Début Hébergements */ /* Début Hébergements */ /* Début Hébergements */
@@ -983,9 +999,13 @@ footer {
 
 	.photo_hebergements
 	{
-		width: 90%;
+		width: 95%;
 	}
 
+	.photo_hebergements2
+	{
+		height: 200px;
+	}
 	/* Fin Hébergements */ /* Fin Hébergements */ /* Fin Hébergements */ /* Fin Hébergements */ /* Fin Hébergements */
 
 	/* Début Activités */ /* Début Activités */ /* Début Activités */ /* Début Activités */ /* Début Activités */
@@ -1001,41 +1021,37 @@ footer {
 		align-items: center;
 	}
 
-	.titre_activites2 
-	{
-		margin-top: -5px;
-	}
+	
 
 	.photo_activites
 	{
-		height: 195px;
+		height: 325px;
 	}
 
 	.photo_grande 
 	{
-		height: 141px;
-		margin-bottom: 15px;
+		height: 250px;
 	}
 
 	.photo_fort
 	{
-		height: 141px;
+		height: 250px;
 	}
 
 	.photo_iles 
 	{
-		height: 141px;
+		height: 250px;
 	}
 
 	.photo_dame
 	{
-		height: 141px;
+		height: 250px;
 	}
 
 	
 	.photo_parc
 	{
-		height: 141px;
+		height: 250px;
 	}
 
 	.photo_x2
