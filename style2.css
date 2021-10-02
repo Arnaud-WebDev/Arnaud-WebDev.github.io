@@ -196,7 +196,6 @@ input {
 	margin-left: 10vh;
 	border: 2px solid #DEEBFF;
 	border-radius: 25px;
-	height: 55px;
 	height: 8vh;
 }
 
@@ -1102,10 +1101,38 @@ footer {
 	/* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */
 }	
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1440px) {
+
+	.fa-map-marker-alt2
+	{
+		width: 7vh;
+		height: 7vh;
+	}
+
+	input
+	{
+		height: 7vh;
+		font-size: 1.3em;
+	}
+
+	.champs 
+	{
+		align-items: center;
+	}
+
+	.bouton
+	{
+		font-size: 1.3em;
+	}
 
 	.icone
 	{
 		height: 6vh;
 	}
-}
+
+	.lien_filtres:hover
+	{
+		height: 6vh;
+	}
+
+
