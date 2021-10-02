@@ -1151,8 +1151,14 @@ footer {
 	}
 	.photo_populaires3
 	{
-		width: 60%;
+		width: 68%;
 		height: 169px;
+	}
+
+	.description_populaires
+	{
+		margin-left: 12px;
+		margin-right: 12px;
 	}
 
 	aside h2 
@@ -1164,5 +1170,36 @@ footer {
 	{
 		font-size: 1.4em;
 	}
+
+	.fa-star
+	{
+		font-size: 1.2em;
+	}
+
+	/* Fin les plus populaires */ /* Fin les plus populaires */ /* Fin les plus populaires */ /* Fin les plus populaires */
+
+	/* Début Activités à Marseille */ /* Début Activités à Marseille */ /* Début Activités à Marseille */ /* Début Activités à Marseille */
+
+	.hoto_activites
+	{
+		width: 21%;
+	}
+
+	.hoto_x2
+	{
+		width: 22%;
+	}
+
+
+	/* Fin Activités à Marseille */ /* Fin Activités à Marseille */ /* Fin Activités à Marseille */ /* Fin Activités à Marseille */
+
+	/* Début Footer */
+
+	.assistance 
+	{
+		margin-right: 450px;
+	}
+
+	/*Fin Footer */
 }
 
