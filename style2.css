@@ -1101,7 +1101,9 @@ footer {
 	/* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */
 }	
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1350px) {
+
+	/* Début champs de recherche */ /* Début champs de recherche */ /* Début champs de recherche */ /* Début champs de recherche */
 
 	.fa-map-marker-alt2
 	{
@@ -1125,6 +1127,10 @@ footer {
 		font-size: 1.3em;
 	}
 
+	/* Fin champs de recherche */ /* Fin champs de recherche */ /* Fin champs de recherche */ /* Fin champs de recherche */
+
+	/* Début Filtres */ /* Début Filtres */ /* Début Filtres */ /* Début Filtres */ /* Début Filtres */ /* Début Filtres */
+
 	.icone
 	{
 		height: 6vh;
@@ -1135,4 +1141,28 @@ footer {
 		height: 6vh;
 	}
 
+	/* Fin Filtres */ /* Fin Filtres */ /* Fin Filtres */ /* Fin Filtres */ /* Fin Filtres */ /* Fin Filtres */ 
+
+	/* Début Les plus populaires */ /* Début Les plus populaires */ /* Début Les plus populaires */ /* Début Les plus populaires */
+
+	.photo_populaires2
+	{
+		height: 169px;
+	}
+	.photo_populaires3
+	{
+		width: 60%;
+		height: 169px;
+	}
+
+	aside h2 
+	{
+		font-size: 1.8em;
+	}
+
+	aside p 
+	{
+		font-size: 1.4em;
+	}
+}
 
