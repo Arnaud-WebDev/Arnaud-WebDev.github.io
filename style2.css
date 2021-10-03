@@ -1101,7 +1101,7 @@ footer {
 	/* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */
 }	
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1440px) and (max-width: 2000px) {
 
 	/* Début champs de recherche */ /* Début champs de recherche */ /* Début champs de recherche */ /* Début champs de recherche */
 
@@ -1180,15 +1180,7 @@ footer {
 
 	/* Début Activités à Marseille */ /* Début Activités à Marseille */ /* Début Activités à Marseille */ /* Début Activités à Marseille */
 
-	.hoto_activites
-	{
-		width: 21%;
-	}
-
-	.hoto_x2
-	{
-		width: 22%;
-	}
+	
 
 
 	/* Fin Activités à Marseille */ /* Fin Activités à Marseille */ /* Fin Activités à Marseille */ /* Fin Activités à Marseille */
@@ -1203,3 +1195,20 @@ footer {
 	/*Fin Footer */
 }
 
+@media only screen and (min-width: 2001px){
+
+	/* Début Filtres */ /* Début Filtres */ /* Début Filtres */ /* Début Filtres */ /* Début Filtres */ /* Début Filtres */
+
+	.icone
+	{
+		height: 5vh;
+	}
+
+	.lien_filtres:hover
+	{
+		height: 5vh;
+	}
+
+	/* Fin Filtres */ /* Fin Filtres */ /* Fin Filtres */ /* Fin Filtres */ /* Fin Filtres */ /* Fin Filtres */ 	
+
+}
