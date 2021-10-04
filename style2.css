@@ -882,12 +882,21 @@ footer {
 
 	/* Fin border */ /* Fin border */ /* Fin border */ /* Fin border */ /* Fin border */ /* Fin border */
 
+	/* Début Informations */ /* Début Informations */ /* Début Informations */ /* Début Informations */
+
+	.information2
+	{
+		font-size: 1.5em;
+	}
+
+	/* Fin Informations */ /* Fin Informations */ /* Fin Informations */ /* Fin Informations */
+
 	/* Début champs de recherche */ /* Début champs de recherche */ /* Début champs de recherche */ /* Début champs de recherche */
 
 	.champs
 	{
 		display: flex;
-		justify-content: center;
+
 	}
 
 	.bouton
@@ -901,11 +910,12 @@ footer {
 		display: flex;
 		position: relative;
 		right: 20px;
+		width: 15%;
 	}
 
 	.fa-map-marker-alt2
 	{
-		width: 50%;
+		width: 15%;
 	}
 
 	
@@ -929,7 +939,7 @@ footer {
 	{
 		margin-left: 0;
 		margin-bottom: 60px;
-		height: 60px;
+		height: 65px;
 	}
 
 	.cercle 
@@ -974,10 +984,20 @@ footer {
 		border-radius: 0;
 	}
 
+	aside p 
+	{
+		font-size: 1.4em;
+	}
+
+	.lien_populaires
+	{
+		width: 95%;
+	}
+
 	.description_populaires
 	{
 
-		margin-top: -10px;
+		margin-left: 20px;
 	}
 
 	.etoiles2
@@ -988,11 +1008,13 @@ footer {
 	.photo_populaires2
 	{
 		width: 28%;
+		height: 165px;
 	}
 
 	.photo_populaires3
 	{
 		width: 28%;
+		height: 165px;
 	}
 
 
