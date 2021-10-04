@@ -537,7 +537,7 @@ footer {
 	.inscrire
 	{
 		position: relative;
-		right: 25px;
+		right: 40px;
 		top: 15px;
 		font-weight: 800;
 	}
@@ -660,10 +660,16 @@ footer {
 		border-radius: 0;
 	}
 
+	aside p 
+	{
+		margin-top: -20px;
+		font-size: 1.3em;
+	}
+
 	.description_populaires
 	{
 
-		margin-top: -10px;
+		margin-left: 20px;
 	}
 
 	.etoiles2
@@ -671,9 +677,14 @@ footer {
 		padding-top: 15px;
 	}
 
+	.photo_populaires2
+	{
+		width: 40%;
+	}
+
 	.photo_populaires3
 	{
-		width: 78%;
+		width: 50%;
 	}
 
 	/* Fin les plus populaires */ /* Fin les plus populaires */ /* Fin les plus populaires */ /* Fin les plus populaires */
