@@ -578,17 +578,23 @@ footer {
 		display: none;
 	}
 
+	input
+	{
+		width: 100%;
+	}
+
 	.fa-search2
 	{
 		visibility: visible;
 		display: flex;
 		position: relative;
 		right: 20px;
+		width: 20%;
 	}
 
 	.fa-map-marker-alt2
 	{
-		width: 50%;
+		width: 20%;
 	}
 
 	
