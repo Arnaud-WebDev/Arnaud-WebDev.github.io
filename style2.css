@@ -278,7 +278,7 @@ section p {
 	width: 27%;
 	border-radius: 20px;
 	padding: 5px;
-	line-height: 0.1em;
+	line-height: 1em;
 	margin: 15px;
 	box-shadow: 1px 1px 15px grey;
 }
@@ -326,6 +326,10 @@ aside {
 	border-radius: 20px;
 	flex: 0.3;
 	margin-left: 40px;
+}
+
+aside p {
+	margin-top: -15px;
 }
 
 .titre_populaires {
