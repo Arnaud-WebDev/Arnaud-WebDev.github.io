@@ -278,7 +278,6 @@ section p {
 	width: 27%;
 	border-radius: 20px;
 	padding: 5px;
-	line-height: 1em;
 	margin: 15px;
 	box-shadow: 1px 1px 15px grey;
 }
@@ -708,13 +707,7 @@ footer {
 		flex-direction: column-reverse;
 	}
 
-	section h2{
-		margin-top: 5px;
-	}
-
-	section p {
-		margin-top: 5px;
-	}
+	
 
 	.hebergements 
 	{
