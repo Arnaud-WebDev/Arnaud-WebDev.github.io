@@ -257,7 +257,6 @@ section p {
 	margin-top: -5px;
 }
 
-
 .afficher {
 	padding-left: 15px;
 }
@@ -279,6 +278,7 @@ section p {
 	width: 27%;
 	border-radius: 20px;
 	padding: 5px;
+	line-height: 0.1em;
 	margin: 15px;
 	box-shadow: 1px 1px 15px grey;
 }
@@ -661,6 +661,11 @@ footer {
 		width: 100%;
 	}
 
+	aside
+	{
+		margin: 0;
+		border-radius: 0;
+	}
 
 	aside p 
 	{
@@ -697,6 +702,14 @@ footer {
 	{
 		display: flex;
 		flex-direction: column-reverse;
+	}
+
+	section h2{
+		margin-top: 5px;
+	}
+
+	section p {
+		margin-top: 5px;
 	}
 
 	.hebergements 
