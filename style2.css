@@ -975,13 +975,35 @@ footer {
 
 	.cercle 
 	{
-		width: 8vh;
-		height: 8vh;
+		width: 7vh;
+		height: 7vh;
 	}
 
 	/* Fin Filtres */
 }
 
+
+
+@media only screen and (max-width: 434px){
+
+	/* Début les plus populaires */
+
+	.photo_populaires3  {
+		width: 70%;
+	}
+}
+
+@media only screen and (max-width: 420px){
+
+	/* Début les plus populaires */
+
+	.photo_populaires3  {
+		width: 60%;
+	}
+
+	/* Fin les plus populaires */
+
+}
 
 @media only screen and (max-width: 370px) {
 
@@ -1014,25 +1036,4 @@ footer {
 	aside {
 		padding-left: 20px;
 	}
-}
-
-@media only screen and (max-width: 434px){
-
-	/* Début les plus populaires */
-
-	.photo_populaires3  {
-		width: 70%;
-	}
-}
-
-@media only screen and (max-width: 420px){
-
-	/* Début les plus populaires */
-
-	.photo_populaires3  {
-		width: 60%;
-	}
-
-	/* Fin les plus populaires */
-
 }
