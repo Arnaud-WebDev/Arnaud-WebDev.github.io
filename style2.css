@@ -97,7 +97,7 @@ h1 {
 .fa-map-marker-alt2 {
 	background-color: #F2F2F2;
 	width: 9vh;
-	height: 9vh;
+	height: 3.5rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -111,7 +111,7 @@ h1 {
 }
 
 input {
-	height: 9vh;
+	height: 3.5rem;
 	font-size: 3vh
 }
 .input {
@@ -122,7 +122,7 @@ input {
 	color: white;
 	border-radius: 0 15px 15px 0;
 	border: 1px solid #0065FC;
-	width: 22vh;
+	width: 100%;
 	font-family: Raleway;
 	font-weight: 600;
 }
@@ -138,7 +138,7 @@ input {
 	align-items: center;
 	background-color: #0065FC;
 	border-radius: 20px;
-	height: 9vh;
+	height: 3.5rem;
 	width: 50%;
 	visibility: hidden;
 	color: white;
@@ -196,7 +196,7 @@ input {
 	margin-left: 10vh;
 	border: 2px solid #DEEBFF;
 	border-radius: 25px;
-	height: 8vh;
+	height: 3.5rem;
 }
 
 .icone2 {
@@ -251,6 +251,7 @@ main h1  {
 
 section h2{
 	margin-top: -5px;
+	font-size: 1.2rem;
 }
 
 section p {
@@ -307,17 +308,15 @@ section p {
 	color: #DEEBFF;
 }
 
-h2 {
-	font-size: 2.6vh;	
-}
+
 
 /* Fin Hébergements */ /* Fin Hébergements */ /* Fin Hébergements */ /* Fin Hébergements */ /* Fin Hébergements */
 
 
 /* Début Les plus populaires */ /* Début Les plus populaires */ /* Début Les plus populaires */
 
-.h2 {
-	font-size: 3.6vh;
+aside h2 {
+	font-size: 1.4rem;
 }
 
 aside {
@@ -358,14 +357,14 @@ aside p {
 .photo_populaires2 {
 	object-fit: cover;
 	width: 50%;
-	height: 139px;
+	height: 169px;
 	border-radius: 20px 0 0 20px;
 }
 
 .photo_populaires3 {
 	object-fit: cover;
 	width: 70%;
-	height: 139px;
+	height: 169px;
 	border-radius: 20px 0 0 20px;
 }
 .description_populaires {
@@ -507,794 +506,90 @@ footer {
 
 /* Fin du footer */ /* Fin du footer */ /* Fin du footer */ /* Fin du footer */ /* Fin du footer */ /* Fin du footer */ 
 
-/* Début responsive */ /* Début responsive */ /* Début responsive */ /* Début responsive */ /* Début responsive */ /* Début responsive *//* Début responsive */ /* Début responsive */ /* Début responsive */
 
+/* Début du responsive */ /* Début du responsive */ /* Début du responsive */ /* Début du responsive */ /* Début du responsive */
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 1570px) {
 
-	/* Début du Header */ /* Début du Header */ /* Début du Header */ /* Début du Header */ /* Début du Header */
+/*Début hébergements */
 
-	body
+	section h2 {
+		font-size: 1.2rem;
+	}
+
+/* Fin hébergements */
+
+	/* Début les plus populaires */
+
+	aside h2 {
+	font-size: 1.2rem;
+	}
+
+	aside p {
+		font-size: 0.9rem;
+	}
+
+	.fas2 {
+		font-size: 1rem;
+	}
+
+	.fas3
 	{
-		margin: auto;
-		padding: 0;
+		font-size: 1rem;
 	}
 
-	.logo 
-	{
-		padding-bottom: 40px;
-		padding-left: 10px;
-	}
-	
-	.li1
-	{
-		position: relative;
-		margin-top: 10vh;
-		right: 70px;
-	}
+	/* Fin les plus populaires */
 
-	.li2
-	{
-		position: relative;
-		margin-top: 10vh;
-		left: 20px;
-	}
-	ul
-	{
-		position: relative;
-		right: 50px;
-	}
-	.inscrire
-	{
-		position: relative;
-		right: 40px;
-		top: 15px;
-		font-weight: 800;
-	}
-
-
-	nav
-	{
-		width: 70%;
-	}
-
-	.nav:hover
-	{
-		border-top: none;
-	}
-
-	.nav2:hover
-	{	
-		border-top: none;
-	}
-
-	/* Fin du Header */ /* Fin du Header */ /* Fin du Header */ /* Fin du Header */ /* Fin du Header */ /* Fin du Header */
-
-	/* Début border */ /* Début border */ /* Début border */ /* Début border */ /* Début border */ /* Début border */
-
-	.border {
-		visibility: visible;
-	}
-
-	/* Fin border */ /* Fin border */ /* Fin border */ /* Fin border */ /* Fin border */ /* Fin border */
-
-	/* Début champs de recherche */ /* Début champs de recherche */ /* Début champs de recherche */ /* Début champs de recherche */
-
-	.champs
-	{
-		display: flex;
-		justify-content: center;
-	}
-	.bouton
-	{
-		display: none;
-	}
-
-	input
-	{
-		width: 100%;
-	}
-
-	.fa-search2
-	{
-		visibility: visible;
-		display: flex;
-		position: relative;
-		right: 20px;
-		width: 20%;
-	}
-
-	.fa-map-marker-alt2
-	{
-		width: 20%;
-	}
-
-	
-
-	/* Fin champs de recherche */ /* Fin champs de recherche */ /* Fin champs de recherche */ /* Fin champs de recherche */ /* Fin champs de recherche */
-
-	/* Début Filtres */ /* Début Filtres */ /* Début Filtres */ /* Début Filtres */ /* Début Filtres */ /* Début Filtres */ 
-
-	.filtres 
-	{
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-	}
-
-	.icone 
-	{
-		margin-left: 0;
-		margin-bottom: 5%;
-		height: 45px;
-	}
-
-	.cercle 
-	{
-		width: 7vh;
-		height: 7vh;
-	}
-
-	.familial
-	{
-		margin-left: 5%;
-	}
-
-	/* Fin Filtres */ /* Fin Filtres */ /* Fin Filtres */ /* Fin Filtres */ /* Fin Filtres */ /* Fin Filtres */ 
-
-	/* Début informations */ /* Début informations */  /* Début informations */ /* Début informations */ /* Début informations */ 
-
-	.cercle_information 
-	{
-		width: 9.5%;
-	}
-
-	.information2
-	{
-		position: relative;
-		top: 13px;
-	}
-
-	/* Fin informations */ /* Fin informations */ /* Fin informations */ /* Fin informations */ /* Fin informations */
-
-	/* Début les plus populaires */ /* Début les plus populaires */ /* Début les plus populaires */ /* Début les plus populaires */
-	.marge2
-	{
-		margin: 0;
-		width: 100%;
-	}
-
-	aside
-	{
-		margin: 0;
-		border-radius: 0;
-	}
-
-	aside p 
-	{
-		margin-top: -20px;
-		font-size: 1.3em;
-	}
-
-	.description_populaires
-	{
-
-		margin-left: 20px;
-	}
-
-	.etoiles2
-	{
-		padding-top: 15px;
-	}
-
-	.photo_populaires2
-	{
-		width: 40%;
-	}
-
-	.photo_populaires3
-	{
-		width: 50%;
-	}
-
-	/* Fin les plus populaires */ /* Fin les plus populaires */ /* Fin les plus populaires */ /* Fin les plus populaires */
-
-	/* Début Hébergements */ /* Début Hébergements */ /* Début Hébergements */ /* Début Hébergements */ /* Début Hébergements */
-
-	main 
-	{
-		display: flex;
-		flex-direction: column-reverse;
-	}
-
-	
-
-	.hebergements 
-	{
-		margin: 0;
-		padding: 0;
-		border-radius: 0;
-		width: 100%;
-		background-color: white;
-	}
-
-	.photo_hebergements
-	{
-		width: 90%;
-	}
-
-	/* Fin Hébergements */ /* Fin Hébergements */ /* Fin Hébergements */ /* Fin Hébergements */ /* Fin Hébergements */
-
-	/* Début Activités */ /* Début Activités */ /* Début Activités */ /* Début Activités */ /* Début Activités */
-	.Marseille
-	{
-		display: flex;
-		flex-direction: column;
-	}
-
-	.titre_activites
-	{
-		display: flex;
-		align-items: center;
-	}
-
-	.titre_activites2 
-	{
-		margin-top: -5px;
-	}
-
-	.photo_activites
-	{
-		height: 195px;
-	}
-
-	.photo_grande 
-	{
-		height: 141px;
-		margin-bottom: 15px;
-	}
-
-	.photo_fort
-	{
-		height: 141px;
-	}
-
-	.photo_iles 
-	{
-		height: 141px;
-	}
-
-	.photo_dame
-	{
-		height: 141px;
-	}
-
-	
-	.photo_parc
-	{
-		height: 141px;
-	}
-
-	.photo_x2
-	{
-		width: 100%;
-
-	}
-
-	.lien_fort
-	{
-		margin-bottom: 30px;
-	}
-	.lien_activites
-	{
-		width: 95%;
-		margin-bottom: 30px;
-	}
-
-	
-
-	/* Fin Activités */ /* Fin Activités */ /* Fin Activités */ /* Fin Activités */ /* Fin Activités */
-
-	/* Début Footer */ /* Début Footer */ /* Début Footer */ /* Début Footer */ /* Début Footer */
-
-	
-
-	.a_propos
-	{
-		margin: 0;
-		margin-top: 50px;
-	}
-
-	.footer2
-	{
-		display: flex;
-		flex-direction: column;
-		width: 90%;
-	}
-
-	.assistance
-	{
-		margin: 0;
-		margin-bottom: 50px;
-		margin-top: 50px;
-
-	}
-
-	/* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px){  /* Pour les tablettes */ /* Pour les tablettes */ /* Pour les tablettes */ /* Pour les tablettes */
 
-	/* Début du Header */ /* Début du Header */ /* Début du Header */ /* Début du Header */ /* Début du Header */
+@media only screen and (max-width: 1360px) {
 
-	body
-	{
-		margin: auto;
-		padding: 0;
-	}
+/* Début Hébergements */
+ 	section h2 {
+ 		font-size: 1rem;
+ 	}
 
-	.logo 
-	{
-		padding-bottom: 40px;
-		padding-left: 10px;
-	}
-	
-	.li1
-	{
-		position: relative;
-		margin-top: 10vh;
-		right: 120px;
-		font-size: 1.5rem;
-	}
+/* Fin Hébergements */
 
-	.li2
-	{
-		position: relative;
-		margin-top: 10vh;
-		left: 120px;
-		font-size: 1.5rem;
-	}
-	ul
-	{
-		position: relative;
-		right: 50px;
-	}
-	.inscrire
-	{
-		position: relative;
-		left: 90px;
-		top: 15px;
-		font-weight: 800;
-		font-size: 1.5rem;
+/* Début les plus populaires */
+	aside h2 {
+		font-size: 1rem;
 	}
 
 
-	nav
-	{
-		width: 70%;
-	}
-
-	.nav:hover
-	{
-		border-top: none;
-	}
-
-	.nav2:hover
-	{	
-		border-top: none;
-	}
-
-	/* Fin du Header */ /* Fin du Header */ /* Fin du Header */ /* Fin du Header */ /* Fin du Header */ /* Fin du Header */
-
-	/* Début border */ /* Début border */ /* Début border */ /* Début border */ /* Début border */ /* Début border */
-
-	.border {
-		visibility: visible;
-	}
-
-	/* Fin border */ /* Fin border */ /* Fin border */ /* Fin border */ /* Fin border */ /* Fin border */
-
-	/* Début Informations */ /* Début Informations */ /* Début Informations */ /* Début Informations */
-
-	.information2
-	{
-		font-size: 1.5em;
-	}
-
-	/* Fin Informations */ /* Fin Informations */ /* Fin Informations */ /* Fin Informations */
-
-	/* Début champs de recherche */ /* Début champs de recherche */ /* Début champs de recherche */ /* Début champs de recherche */
-
-	.champs
-	{
-		display: flex;
-
-	}
-
-	.bouton
-	{
-		display: none;
-	}
-
-	.fa-search2
-	{
-		visibility: visible;
-		display: flex;
-		position: relative;
-		right: 20px;
-		width: 15%;
-	}
-
-	.fa-map-marker-alt2
-	{
-		width: 15%;
-	}
-
-	
-
-	/* Fin champs de recherche */ /* Fin champs de recherche */ /* Fin champs de recherche */ /* Fin champs de recherche */ /* Fin champs de recherche */
-
-	/* Début Filtres */ /* Début Filtres */ /* Début Filtres */ /* Début Filtres */ /* Début Filtres */ /* Début Filtres */ 
-
-	.filtres 
-	{
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-	}
-
-	.filtres2
-	{
-		width: 70%;
-	}
-	.icone 
-	{
-		margin-left: 0;
-		margin-bottom: 60px;
-		height: 65px;
-	}
-
-	.cercle 
-	{
-		width: 7vh;
-		height: 7vh;
-	}
-
-	.familial
-	{
-		margin-left: 120px;
-		width: 50%;
-	}
-
-	/* Fin Filtres */ /* Fin Filtres */ /* Fin Filtres */ /* Fin Filtres */ /* Fin Filtres */ /* Fin Filtres */ 
-
-	/* Début informations */ /* Début informations */  /* Début informations */ /* Début informations */ /* Début informations */ 
-
-	.cercle_information 
-	{
-		width: 5%;
-	}
-
-	.information2
-	{
-		position: relative;
-		top: 13px;
-	}
-
-	/* Fin informations */ /* Fin informations */ /* Fin informations */ /* Fin informations */ /* Fin informations */
-
-	/* Début les plus populaires */ /* Début les plus populaires */ /* Début les plus populaires */ /* Début les plus populaires */
-	.marge2
-	{
-		margin: 0;
-		width: 100%;
-	}
-
-	aside
-	{
-		margin: 0;
-		border-radius: 0;
-	}
-
-	aside p 
-	{
-		font-size: 1.4em;
-	}
-
-	.lien_populaires
-	{
-		width: 95%;
-	}
-
-	.description_populaires
-	{
-
-		margin-left: 20px;
-	}
-
-	.etoiles2
-	{
-		padding-top: 15px;
-	}
-
-	.photo_populaires2
-	{
-		width: 28%;
-		height: 165px;
-	}
-
-	.photo_populaires3
-	{
-		width: 28%;
-		height: 165px;
-	}
-
-
-	/* Fin les plus populaires */ /* Fin les plus populaires */ /* Fin les plus populaires */ /* Fin les plus populaires */
-
-	/* Début Hébergements */ /* Début Hébergements */ /* Début Hébergements */ /* Début Hébergements */ /* Début Hébergements */
-
-	main 
-	{
-		display: flex;
-		flex-direction: column-reverse;
-	}
-
-	.hebergements 
-	{
-		margin: 0;
-		padding: 0;
-		border-radius: 0;
-		width: 100%;
-		background-color: white;
-	}
-
-	.photo_hebergements
-	{
-		width: 95%;
-		line-height: normal;
-	}
-
-	.photo_hebergements2
-	{
-		height: 200px;
-	}
-	/* Fin Hébergements */ /* Fin Hébergements */ /* Fin Hébergements */ /* Fin Hébergements */ /* Fin Hébergements */
-
-	/* Début Activités */ /* Début Activités */ /* Début Activités */ /* Début Activités */ /* Début Activités */
-	.Marseille
-	{
-		display: flex;
-		flex-direction: column;
-	}
-
-	.titre_activites
-	{
-		display: flex;
-		align-items: center;
-	}
-
-	
-
-	.photo_activites
-	{
-		height: 325px;
-	}
-
-	.photo_grande 
-	{
-		height: 250px;
-	}
-
-	.photo_fort
-	{
-		height: 250px;
-	}
-
-	.photo_iles 
-	{
-		height: 250px;
-	}
-
-	.photo_dame
-	{
-		height: 250px;
-	}
-
-	
-	.photo_parc
-	{
-		height: 250px;
-	}
-
-	.photo_x2
-	{
-		width: 100%;
-
-	}
-
-	.lien_fort
-	{
-		margin-bottom: 30px;
-	}
-	.lien_activites
-	{
-		width: 95%;
-		margin-bottom: 30px;
-	}
-
-	
-
-	/* Fin Activités */ /* Fin Activités */ /* Fin Activités */ /* Fin Activités */ /* Fin Activités */
-
-	/* Début Footer */ /* Début Footer */ /* Début Footer */ /* Début Footer */ /* Début Footer */
-
-	
-
-	.a_propos
-	{
-		margin: 0;
-		margin-top: 50px;
-	}
-
-	.footer2
-	{
-		display: flex;
-		flex-direction: column;
-		width: 90%;
-	}
-
-	.assistance
-	{
-		margin: 0;
-		margin-bottom: 50px;
-		margin-top: 50px;
-
-	}
-
-	/* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */
 }	
 
-@media only screen and (min-width: 1440px) and (max-width: 2000px) {
+@media only screen and (max-width: 1340px) {
 
-	/* Début champs de recherche */ /* Début champs de recherche */ /* Début champs de recherche */ /* Début champs de recherche */
-
-	.fa-map-marker-alt2
-	{
-		width: 7vh;
-		height: 7vh;
+	/*Début Filtres */
+	.icone {
+		margin-left: 6vh;
 	}
-
-	input
-	{
-		height: 7vh;
-		font-size: 1.3em;
-	}
-
-	.champs 
-	{
-		align-items: center;
-	}
-
-	.bouton
-	{
-		font-size: 1.3em;
-	}
-
-	/* Fin champs de recherche */ /* Fin champs de recherche */ /* Fin champs de recherche */ /* Fin champs de recherche */
-
-	/* Début Filtres */ /* Début Filtres */ /* Début Filtres */ /* Début Filtres */ /* Début Filtres */ /* Début Filtres */
-
-	.icone
-	{
-		height: 6vh;
-	}
-
-	.lien_filtres:hover
-	{
-		height: 6vh;
-	}
-
-	/* Fin Filtres */ /* Fin Filtres */ /* Fin Filtres */ /* Fin Filtres */ /* Fin Filtres */ /* Fin Filtres */ 
-
-	/* Début Les plus populaires */ /* Début Les plus populaires */ /* Début Les plus populaires */ /* Début Les plus populaires */
-
-	.photo_populaires2
-	{
-		height: 169px;
-	}
-	.photo_populaires3
-	{
-		width: 68%;
-		height: 169px;
-	}
-
-	.description_populaires
-	{
-		margin-left: 12px;
-		margin-right: 12px;
-	}
-
-	aside h2 
-	{
-		font-size: 1.8em;
-	}
-
-	aside p 
-	{
-		font-size: 1.4em;
-	}
-
-	.fa-star
-	{
-		font-size: 1.2em;
-	}
-
-	/* Fin les plus populaires */ /* Fin les plus populaires */ /* Fin les plus populaires */ /* Fin les plus populaires */
-
-	/* Début Activités à Marseille */ /* Début Activités à Marseille */ /* Début Activités à Marseille */ /* Début Activités à Marseille */
-
-	.photo_activites
-	{
-		width: 22%;
-	}
-
-	.photo_x2
-	{
-		width: 22%;
-	}
-
-	.photo_grande
-	{	
-		height: 500px;
-	}
-
-	.photo_fort
-	{
-		height: 220px;
-	}
-
-	.photo_iles
-	{
-		height: 150px;
-	}
-
-	.photo_dame
-	{
-		height: 180px;
-	}
-
-	.photo_parc
-	{
-		height: 180px;
-	}
-
-	/* Fin Activités à Marseille */ /* Fin Activités à Marseille */ /* Fin Activités à Marseille */ /* Fin Activités à Marseille */
-
-	/* Début Footer */
-
-	.assistance 
-	{
-		margin-right: 450px;
-	}
-
-	/*Fin Footer */
 }
 
-@media only screen and (min-width: 2001px){
+@media only screen and (max-width: 1170px) {
 
-	/* Début Filtres */ /* Début Filtres */ /* Début Filtres */ /* Début Filtres */ /* Début Filtres */ /* Début Filtres */
+	/* Début Main */
 
-	.icone
-	{
-		height: 5vh;
+	main {
+		display: flex;
+		flex-direction: column-reverse;
 	}
 
-	.lien_filtres:hover
-	{
-		height: 5vh;
+	/* Fin Main */
+
+	/* Début les plus populaires */
+
+	.photo_populaires3 {
+		width: 50%;
 	}
 
-	/* Fin Filtres */ /* Fin Filtres */ /* Fin Filtres */ /* Fin Filtres */ /* Fin Filtres */ /* Fin Filtres */ 	
+	/* Fin les plus populaires */
 
+	aside {
+		margin: 0;
+		margin-bottom: 15px;
+	}
 }
+
