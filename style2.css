@@ -960,6 +960,14 @@ footer {
 
 	}
 
+	.icone:hover {
+		height: 45px;
+	}
+
+	.lien_filtres:hover {
+		height: 45px;
+	}
+
 	.familial
 	{
 		margin-left: 20px;
@@ -1015,6 +1023,17 @@ footer {
 		height: 40px;
 	}
 
+	.icone:hover
+	{
+		font-size: 0.8rem;
+		height: 40px;
+	}
+
+	.lien_filtres:hover {
+		font-size: 0.8rem;
+		height: 40px;
+	}
+
 	.lien_filtres {
 		font-size: 0.8rem;
 	}
@@ -1027,6 +1046,11 @@ footer {
 	.familial{
 		width: 130px;
 		margin-left: 10px;
+	}
+
+	.familial:hover
+	{
+		width: 130px;
 	}
 
 	/* Fin Filtres */
