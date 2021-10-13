@@ -171,7 +171,7 @@ input {
 	align-items: center;
 	box-shadow: 3px 3px 5px #DEEBFF;
 	border-radius: 25px;
-	height: 8vh;
+	height: 3.5rem;
 }
 
 .fas2 {
@@ -570,6 +570,49 @@ footer {
 
 @media only screen and (max-width: 1170px) {
 
+	/* Début border */ /* Début border */ /* Début border */ /* Début border */ /* Début border */ /* Début border */
+
+	.border {
+		visibility: visible;
+	}
+
+	/* Fin border */ /* Fin border */ /* Fin border */ /* Fin border */ /* Fin border */ /* Fin border */
+
+	/* Début champs de recherche */ /* Début champs de recherche */ /* Début champs de recherche */ /* Début champs de recherche */
+
+	.champs
+	{
+		display: flex;
+		justify-content: center;
+	}
+	.bouton
+	{
+		display: none;
+	}
+
+	input
+	{
+		width: 100%;
+	}
+
+	.fa-search2
+	{
+		visibility: visible;
+		display: flex;
+		position: relative;
+		right: 20px;
+		width: 20%;
+	}
+
+	.fa-map-marker-alt2
+	{
+		width: 20%;
+	}
+
+	
+
+	/* Fin champs de recherche */ /* Fin champs de recherche */ /* Fin champs de recherche */ /* Fin champs de recherche */ /* Fin champs de recherche */
+
 	/* Début Main */
 
 	main {
@@ -591,5 +634,150 @@ footer {
 		margin: 0;
 		margin-bottom: 15px;
 	}
+
+	/* Fin Les plus populaires */
+
+	/* Début hébergements */
+
+	section {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.hebergements {
+		width: 100%;
+	}
+
+	.photo_hebergements {
+		width: 95%;
+	}
+
+	/* Début Filtres */ /* Début Filtres */ /* Début Filtres */ /* Début Filtres */ /* Début Filtres */ /* Début Filtres */ 
+
+	.filtres 
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.icone 
+	{
+		margin-left: 0;
+		margin-bottom: 30px;
+		height: 55px;
+	}
+
+	.cercle 
+	{
+		width: 7vh;
+		height: 7vh;
+	}
+
+	.familial
+	{
+		margin-left: 60px;
+		width: 200px;
+	}
+
+	/* Fin Filtres */ /* Fin Filtres */ /* Fin Filtres */ /* Fin Filtres */ /* Fin Filtres */ /* Fin Filtres */ 
+
+	/* Début Activités */ /* Début Activités */ /* Début Activités */ /* Début Activités */ /* Début Activités */
+	.Marseille
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.titre_activites
+	{
+		display: flex;
+		align-items: center;
+	}
+
+	.titre_activites2 
+	{
+		margin-top: -5px;
+	}
+
+	.photo_activites
+	{
+		height: 195px;
+	}
+
+	.photo_grande 
+	{
+		height: 141px;
+		margin-bottom: 15px;
+	}
+
+	.photo_fort
+	{
+		height: 141px;
+	}
+
+	.photo_iles 
+	{
+		height: 141px;
+	}
+
+	.photo_dame
+	{
+		height: 141px;
+	}
+
+	
+	.photo_parc
+	{
+		height: 141px;
+	}
+
+	.photo_x2
+	{
+		width: 100%;
+
+	}
+
+	.lien_fort
+	{
+		margin-bottom: 30px;
+	}
+	.lien_activites
+	{
+		width: 95%;
+		margin-bottom: 30px;
+	}
+
+	
+
+	/* Fin Activités */ /* Fin Activités */ /* Fin Activités */ /* Fin Activités */ /* Fin Activités */
+
+	/* Début Footer */ /* Début Footer */ /* Début Footer */ /* Début Footer */ /* Début Footer */
+
+	
+
+	.a_propos
+	{
+		margin: 0;
+		margin-top: 50px;
+	}
+
+	.footer2
+	{
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+	}
+
+	.assistance
+	{
+		margin: 0;
+		margin-bottom: 50px;
+		margin-top: 50px;
+
+	}
+
+	/* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */
 }
 
