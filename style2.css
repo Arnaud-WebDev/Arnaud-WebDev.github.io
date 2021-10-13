@@ -852,6 +852,8 @@ footer {
 	/* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */
 }
 
+
+
 @media only screen and (max-width: 558px) {
 
 	 /* Début Filtres */
@@ -882,14 +884,6 @@ footer {
 	 }
 }
 
-@media only screen and (max-width: 434px){
-
-	/* Début les plus populaires */
-
-	.photo_populaires3  {
-		width: 70%;
-	}
-}
 
 @media only screen and (max-width: 470px) {
 
@@ -981,12 +975,13 @@ footer {
 
 	.cercle 
 	{
-		width: 7vh;
-		height: 7vh;
+		width: 8vh;
+		height: 8vh;
 	}
 
 	/* Fin Filtres */
 }
+
 
 @media only screen and (max-width: 370px) {
 
@@ -1003,8 +998,8 @@ footer {
 	}
 
 	.cercle {
-		height: 6vh;
-		width: 6vh;
+		height: 7vh;
+		width: 7vh;
 	}
 
 	.familial{
@@ -1019,4 +1014,25 @@ footer {
 	aside {
 		padding-left: 20px;
 	}
+}
+
+@media only screen and (max-width: 434px){
+
+	/* Début les plus populaires */
+
+	.photo_populaires3  {
+		width: 70%;
+	}
+}
+
+@media only screen and (max-width: 420px){
+
+	/* Début les plus populaires */
+
+	.photo_populaires3  {
+		width: 60%;
+	}
+
+	/* Fin les plus populaires */
+
 }
