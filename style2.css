@@ -80,7 +80,7 @@ a {
 /* Titre + descriptions */ /* Titre + descriptions */ /* Titre + descriptions */ /* Titre + descriptions */
 
 h1 {
-	font-size: 3.6vh;
+	font-size: 1.6rem;
 }
 
 /* Fin du titre + description */ /* Fin du titre + description */ /* Fin du titre + description */ /* Fin du titre + description */
@@ -512,7 +512,9 @@ footer {
 @media only screen and (max-width: 1570px) {
 
 /*Début hébergements */
-
+	main h1 {
+		font-size: 1.4rem;
+	}
 	section h2 {
 		font-size: 1.2rem;
 	}
@@ -522,7 +524,7 @@ footer {
 	/* Début les plus populaires */
 
 	aside h2 {
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	}
 
 	aside p {
