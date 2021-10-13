@@ -572,6 +572,69 @@ footer {
 
 @media only screen and (max-width: 1170px) {
 
+	/* Début du Header */ /* Début du Header */ /* Début du Header */ /* Début du Header */ /* Début du Header */
+
+	body
+	{
+		margin: auto;
+		padding: 0;
+	}
+
+	.logo 
+	{
+		padding-top: 15px;
+		padding-left: 10px;
+		position: absolute;
+	}
+
+	li {
+		margin: 0;
+	}
+	
+	.li1
+	{
+		width: 50%;
+		text-align: center;
+	}
+
+	.li2
+	{
+		width: 50%;
+		text-align: center;
+	}
+
+	ul
+	{
+		flex-wrap: wrap;
+	}
+
+	.inscrire
+	{
+		width: 100%;
+		order: -1;
+		text-align: right;
+		padding: 20px;
+		font-weight: 800;
+	}
+
+
+	nav
+	{
+		width: 100%;
+	}
+
+	.nav:hover
+	{
+		border-top: none;
+	}
+
+	.nav2:hover
+	{	
+		border-top: none;
+	}
+
+	/* Fin du Header */ /* Fin du Header */ /* Fin du Header */ /* Fin du Header */ /* Fin du Header */ /* Fin du Header */
+
 	/* Début border */ /* Début border */ /* Début border */ /* Début border */ /* Début border */ /* Début border */
 
 	.border {
@@ -630,10 +693,15 @@ footer {
 	/* Fin Main */
 
 	/* Début les plus populaires */
+	.titre_populaires {
+		justify-content: space-between;
+	}
+
 	aside {
 		margin: 0;
 		margin-bottom: 15px;
 		border-radius: 0;
+		padding: 30px;
 	}
 
 	.h2 {
@@ -645,7 +713,9 @@ footer {
 	}
 
 	.photo_populaires {
-		width: 95%;
+		width: 100%;
+		margin: 0;
+		margin-bottom: 20px;
 	}
 	.photo_populaires3 {
 		width: 50%;
@@ -782,8 +852,39 @@ footer {
 	/* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */
 }
 
+@media only screen and (max-width: 558px) {
+
+	 /* Début Filtres */
+	 .icone {
+	 	margin-bottom: 5%;
+	 }
+
+	 /* Fin Filtres */
+
+	 /* Début Activités */
+
+	 article {
+	 	padding-right: 12px;
+	 }
+
+	 article h2 {
+	 	font-size: 1.2rem;
+	 }
+
+	 /* Fin Activités */
+
+	 .h2 {
+	 	font-size: 1.5rem;
+	 }
+
+	 article .h2 {
+	 	margin-left: 10px;
+	 }
+}
+
 @media only screen and (max-width: 470px) {
 
+	
 	/* Début du Header */ /* Début du Header */ /* Début du Header */ /* Début du Header */ /* Début du Header */
 
 	body
@@ -794,40 +895,45 @@ footer {
 
 	.logo 
 	{
-		padding-bottom: 40px;
+		padding-top: 15px;
 		padding-left: 10px;
+		position: absolute;
+	}
+
+	li {
+		margin: 0;
 	}
 	
 	.li1
 	{
-		position: relative;
-		margin-top: 10vh;
-		right: 70px;
+		width: 50%;
+		text-align: center;
 	}
 
 	.li2
 	{
-		position: relative;
-		margin-top: 10vh;
-		left: 20px;
+		width: 50%;
+		text-align: center;
 	}
+
 	ul
 	{
-		position: relative;
-		right: 50px;
+		flex-wrap: wrap;
 	}
+
 	.inscrire
 	{
-		position: relative;
-		right: 40px;
-		top: 15px;
+		width: 100%;
+		order: -1;
+		text-align: right;
+		padding: 20px;
 		font-weight: 800;
 	}
 
 
 	nav
 	{
-		width: 70%;
+		width: 100%;
 	}
 
 	.nav:hover
@@ -846,6 +952,9 @@ footer {
 
 	.icone {
 		height: 45px;
+		margin-left: 0;
+		margin-bottom: 5%;
+
 	}
 
 	.familial
@@ -854,7 +963,51 @@ footer {
 		width: 150px;
 	}
 
+	.filtres 
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
 
+	.cercle 
+	{
+		width: 7vh;
+		height: 7vh;
+	}
 
 	/* Fin Filtres */
+}
+
+@media only screen and (max-width: 370px) {
+
+	/* Début Filtres */
+
+	.icone
+	{
+		font-size: 0.8rem;
+		height: 40px;
+	}
+
+	.lien_filtres {
+		font-size: 0.8rem;
+	}
+
+	.cercle {
+		height: 6vh;
+		width: 6vh;
+	}
+
+	.familial{
+		width: 130px;
+		margin-left: 10px;
+	}
+
+	/* Fin Filtres */
+
+	/* Fin les plus populaires */
+
+	aside {
+		padding-left: 20px;
+	}
 }
