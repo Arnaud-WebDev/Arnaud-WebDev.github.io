@@ -566,6 +566,8 @@ footer {
 	.icone {
 		margin-left: 6vh;
 	}
+
+	/* Fin Filtres */
 }
 
 @media only screen and (max-width: 1170px) {
@@ -613,6 +615,11 @@ footer {
 
 	/* Fin champs de recherche */ /* Fin champs de recherche */ /* Fin champs de recherche */ /* Fin champs de recherche */ /* Fin champs de recherche */
 
+	/* Début Filtres */
+
+	.filtres {
+		flex-wrap: wrap;
+	}
 	/* Début Main */
 
 	main {
@@ -623,17 +630,33 @@ footer {
 	/* Fin Main */
 
 	/* Début les plus populaires */
+	aside {
+		margin: 0;
+		margin-bottom: 15px;
+		border-radius: 0;
+	}
 
+	.h2 {
+		font-size: 1.8rem;
+	}
+
+	.fa-chart-line {
+		font-size: 1.8rem;
+	}
+
+	.photo_populaires {
+		width: 95%;
+	}
 	.photo_populaires3 {
 		width: 50%;
 	}
 
-	/* Fin les plus populaires */
-
-	aside {
+	.marge2
+	{
 		margin: 0;
-		margin-bottom: 15px;
+		width: 100%;
 	}
+
 
 	/* Fin Les plus populaires */
 
@@ -647,41 +670,19 @@ footer {
 
 	.hebergements {
 		width: 100%;
+		background-color: white;
+		margin: 0;
+		padding: 0;
+		border-radius: 0;
 	}
 
 	.photo_hebergements {
-		width: 95%;
+		width: auto;
 	}
 
-	/* Début Filtres */ /* Début Filtres */ /* Début Filtres */ /* Début Filtres */ /* Début Filtres */ /* Début Filtres */ 
+	/* Fin hébergements
 
-	.filtres 
-	{
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-	}
-
-	.icone 
-	{
-		margin-left: 0;
-		margin-bottom: 30px;
-		height: 59px;
-	}
-
-	.cercle 
-	{
-		width: 7vh;
-		height: 7vh;
-	}
-
-	.familial
-	{
-		margin-left: 60px;
-		width: 200px;
-	}
-
-	/* Fin Filtres */ /* Fin Filtres */ /* Fin Filtres */ /* Fin Filtres */ /* Fin Filtres */ /* Fin Filtres */ 
+	 
 
 	/* Début Activités */ /* Début Activités */ /* Début Activités */ /* Début Activités */ /* Début Activités */
 	.Marseille
@@ -745,7 +746,7 @@ footer {
 	}
 	.lien_activites
 	{
-		width: 95%;
+		width: 100%;
 		margin-bottom: 30px;
 	}
 
@@ -781,3 +782,79 @@ footer {
 	/* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */
 }
 
+@media only screen and (max-width: 470px) {
+
+	/* Début du Header */ /* Début du Header */ /* Début du Header */ /* Début du Header */ /* Début du Header */
+
+	body
+	{
+		margin: auto;
+		padding: 0;
+	}
+
+	.logo 
+	{
+		padding-bottom: 40px;
+		padding-left: 10px;
+	}
+	
+	.li1
+	{
+		position: relative;
+		margin-top: 10vh;
+		right: 70px;
+	}
+
+	.li2
+	{
+		position: relative;
+		margin-top: 10vh;
+		left: 20px;
+	}
+	ul
+	{
+		position: relative;
+		right: 50px;
+	}
+	.inscrire
+	{
+		position: relative;
+		right: 40px;
+		top: 15px;
+		font-weight: 800;
+	}
+
+
+	nav
+	{
+		width: 70%;
+	}
+
+	.nav:hover
+	{
+		border-top: none;
+	}
+
+	.nav2:hover
+	{	
+		border-top: none;
+	}
+
+	/* Fin du Header */ /* Fin du Header */ /* Fin du Header */ /* Fin du Header */ /* Fin du Header */ /* Fin du Header */
+
+	/* Début filtres */
+
+	.icone {
+		height: 45px;
+	}
+
+	.familial
+	{
+		margin-left: 20px;
+		width: 150px;
+	}
+
+
+
+	/* Fin Filtres */
+}
