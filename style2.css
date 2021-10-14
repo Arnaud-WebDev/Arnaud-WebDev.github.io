@@ -340,7 +340,7 @@ aside p {
 }
 
 .lien_populaires {
-	display: flex;
+	display: flex;;
 }
 
 .photo_populaires {
@@ -351,6 +351,7 @@ aside p {
 	padding: 5px;
 	margin: 20px;
 	box-shadow: 1px 1px 15px grey;
+	max-height: 170px;
 }
 
 .photo_populaires:hover {
@@ -579,7 +580,46 @@ footer {
 	/* Fin Filtres */
 }
 
-@media only screen and (max-width: 1170px) {
+@media only screen and (max-width: 1151px){
+	/* Début hébergememnts */
+
+	section h2 {
+		font-size: 0.9rem;
+	}
+
+	section p {
+		font-size: 0.8rem;
+	}
+
+	.fa-star {
+		font-size: 0.9rem;
+	}
+
+	/* Fin hébergements */
+
+	/* Début les plus populaires */
+	aside h2 {
+		font-size: 0.9rem;
+	}
+
+	aside p {
+		font-size: 0.8rem;
+	}
+
+	/* Fin les plus populaires */
+
+}
+
+@media only screen and (max-width: 1055px) {
+	section h2 {
+		font-size: 0.8rem;
+	}
+	section p {
+		font-size: 0.7rem;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
 
 	/* Début du Header */ /* Début du Header */ /* Début du Header */ /* Début du Header */ /* Début du Header */
 
