@@ -328,6 +328,7 @@ aside {
 
 aside p {
 	margin-top: -15px;
+	font-size: 1rem;
 }
 
 
@@ -357,24 +358,28 @@ aside p {
 }
 .photo_populaires2 {
 	object-fit: cover;
-	width: 50%;
+	width: 35%;
 	height: 169px;
 	border-radius: 20px 0 0 20px;
 }
 
 .photo_populaires3 {
 	object-fit: cover;
-	width: 70%;
+	width: 35%;
 	height: 169px;
 	border-radius: 20px 0 0 20px;
 }
 .description_populaires {
- 	padding: 3px;
+ 	margin: 15px;
  	font-size: 0.7rem;
  	display: flex;
  	flex-direction: column;
  	justify-content: space-between;
 
+ }
+
+ .description_populaires h2 {
+ 	font-size: 1.2rem;
  }
  
  .etoiles {
@@ -721,9 +726,7 @@ footer {
 		margin: 0;
 		margin-bottom: 20px;
 	}
-	.photo_populaires3 {
-		width: 50%;
-	}
+	
 
 	.marge2
 	{
@@ -1000,8 +1003,8 @@ footer {
 
 	.cercle 
 	{
-		width: 7vh;
-		height: 7vh;
+		width: 50px;
+		height: 50px;
 	}
 
 	/* Fin Filtres */
@@ -1037,10 +1040,7 @@ footer {
 		font-size: 0.8rem;
 	}
 
-	.cercle {
-		height: 7vh;
-		width: 7vh;
-	}
+	
 
 	.familial{
 		width: 130px;
