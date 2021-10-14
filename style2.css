@@ -91,7 +91,7 @@ h1 {
 	display: flex;
 }
 .fas {
-	font-size: 3vh;
+	font-size: 1.3rem;
 }
 
 .fa-map-marker-alt2 {
@@ -171,7 +171,7 @@ input {
 	align-items: center;
 	box-shadow: 3px 3px 5px #DEEBFF;
 	border-radius: 25px;
-	height: 3.5rem;
+	height: 50px;
 }
 
 .fas2 {
@@ -180,8 +180,8 @@ input {
 
 .cercle {
 	background-color: #DEEBFF;
-	width: 60px;
-	height: 60px;
+	width: 50px;
+	height: 50px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -193,10 +193,10 @@ input {
 .icone {
 	display: flex;
 	align-items: center;
-	margin-left: 10vh;
+	margin-left: 30px;
 	border: 2px solid #DEEBFF;
 	border-radius: 25px;
-	height: 3.5rem;
+	height: 3rem;
 }
 
 .icone2 {
@@ -570,17 +570,11 @@ footer {
 
 }	
 
-@media only screen and (max-width: 1340px) {
 
-	/*Début Filtres */
-	.icone {
-		margin-left: 6vh;
-	}
-
-	/* Fin Filtres */
-}
 
 @media only screen and (max-width: 1151px){
+	
+
 	/* Début hébergememnts */
 
 	section h2 {
@@ -599,7 +593,7 @@ footer {
 
 	/* Début les plus populaires */
 	aside h2 {
-		font-size: 0.9rem;
+		font-size: 1.1rem;
 	}
 
 	aside p {
@@ -697,7 +691,6 @@ footer {
 	.champs
 	{
 		display: flex;
-		justify-content: center;
 	}
 	.bouton
 	{
@@ -715,12 +708,12 @@ footer {
 		display: flex;
 		position: relative;
 		right: 20px;
-		width: 20%;
+		width: 90px;
 	}
 
 	.fa-map-marker-alt2
 	{
-		width: 20%;
+		width: 90px;
 	}
 
 	
@@ -898,6 +891,8 @@ footer {
 
 	/* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */
 }
+
+
 
 @media only screen and (max-width: 613px) {
 	.photo_populaires2 {
@@ -1107,4 +1102,22 @@ footer {
 	}
 
 /* Fin les plus populaires */
+}
+
+@media only screen and (max-width: 320px) {
+	/* Début Filtres */
+
+	.filtres {
+    display: flex;
+    flex-direction: column;
+ 	}
+
+ 	.filtres2 {
+    display: flex;
+    flex-direction: column;
+	}
+
+	.familial {
+		margin-left: 0;
+	}
 }
