@@ -330,6 +330,7 @@ aside p {
 	margin-top: -15px;
 }
 
+
 .titre_populaires {
 	display: flex;
 	justify-content: space-around;
@@ -375,6 +376,7 @@ aside p {
  	justify-content: space-between;
 
  }
+ 
  .etoiles {
  	padding-top: 14px;
 }
@@ -523,8 +525,8 @@ footer {
 
 	/* Début les plus populaires */
 
-	aside h2 {
-	font-size: 1.2rem;
+	.description_populaires h2 {
+	font-size: 1.1rem;
 	}
 
 	aside p {
@@ -555,7 +557,7 @@ footer {
 /* Fin Hébergements */
 
 /* Début les plus populaires */
-	aside h2 {
+	.description_populaires h2 {
 		font-size: 1rem;
 	}
 
@@ -854,6 +856,15 @@ footer {
 	/* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */ /* Fin Footer */
 }
 
+@media only screen and (max-width: 613px) {
+	.photo_populaires2 {
+		width: 40%;
+	}
+
+	.photo_populaires3 {
+		width: 40%;
+	}
+}
 
 
 @media only screen and (max-width: 558px) {
@@ -884,6 +895,10 @@ footer {
 	 article .h2 {
 	 	margin-left: 10px;
 	 }
+
+	 .description_populaires h2 {
+		font-size: 1rem;
+	}
 }
 
 
@@ -994,26 +1009,8 @@ footer {
 
 
 
-@media only screen and (max-width: 434px){
 
-	/* Début les plus populaires */
 
-	.photo_populaires3  {
-		width: 70%;
-	}
-}
-
-@media only screen and (max-width: 420px){
-
-	/* Début les plus populaires */
-
-	.photo_populaires3  {
-		width: 60%;
-	}
-
-	/* Fin les plus populaires */
-
-}
 
 @media only screen and (max-width: 370px) {
 
@@ -1041,8 +1038,8 @@ footer {
 	}
 
 	.cercle {
-		height: 6vh;
-		width: 6vh;
+		height: 7vh;
+		width: 7vh;
 	}
 
 	.familial{
@@ -1057,9 +1054,17 @@ footer {
 
 	/* Fin Filtres */
 
-	/* Fin les plus populaires */
+/* Début les plus populaires */
+
+		
 
 	aside {
 		padding-left: 20px;
 	}
+
+	.description_populaires h2 {
+		font-size: 1rem;
+	}
+
+/* Fin les plus populaires */
 }
