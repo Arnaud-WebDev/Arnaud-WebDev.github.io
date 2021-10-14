@@ -722,13 +722,16 @@ footer {
 
 	
 
-	/* Fin champs de recherche */ /* Fin champs de recherche */ /* Fin champs de recherche */ /* Fin champs de recherche */ /* Fin champs de recherche */
+	/* Fin champs de recherche */ /* Fin champs de recherche */ 
 
 	/* Début Filtres */
 
 	.filtres {
 		flex-wrap: wrap;
 	}
+
+	/* Fin Filtres */
+
 	/* Début Main */
 
 	main {
@@ -751,7 +754,7 @@ footer {
 	}
 
 	.h2 {
-		font-size: 1.8rem;
+		font-size: 1.6rem;
 	}
 
 	.fa-chart-line {
@@ -794,7 +797,7 @@ footer {
 		width: auto;
 	}
 
-	/* Fin hébergements
+	/* Fin hébergements */
 
 	 
 
@@ -1030,8 +1033,9 @@ footer {
 	.familial
 	{
 		margin-left: 20px;
-		width: 150px;
 	}
+
+
 
 	.filtres 
 	{
