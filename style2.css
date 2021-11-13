@@ -4,7 +4,7 @@
 }
 
 body {
-	font-family: Raleway;
+	font-family: Raleway, sans-serif;
 	margin: 0;
 	padding: 0;
 }
@@ -13,6 +13,8 @@ body {
 	width: 95%;
 	margin: auto;
 }
+
+
 /* Début du Header */ /* Début du Header */ /* Début du Header */ /* Début du Header */ /* Début du Header */
 
 
@@ -669,7 +671,9 @@ footer {
 	{
 		width: 100%;
 	}
-
+	.nav1 {
+		margin-right: 80px;
+	}
 	.nav:hover
 	{
 		border-top: none;
@@ -1005,7 +1009,7 @@ footer {
 	{
 		border-top: none;
 	}
-
+	
 	.nav2:hover
 	{	
 		border-top: none;
@@ -1059,6 +1063,10 @@ footer {
 
 
 @media only screen and (max-width: 370px) {
+
+	.nav1 {
+		margin-left: -20px;
+	}
 
 	/* Début Filtres */
 
@@ -1114,7 +1122,7 @@ footer {
 
 @media only screen and (max-width: 320px) {
 	/* Début Filtres */
-
+	
 	.filtres {
     display: flex;
     flex-direction: column;
