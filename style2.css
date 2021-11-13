@@ -1,7 +1,4 @@
-@font-face 
-{
-	font-family: Raleway;
-}
+
 
 body {
 	font-family: Raleway, sans-serif;
@@ -700,6 +697,7 @@ footer {
 	{
 		display: flex;
 	}
+	
 	.bouton
 	{
 		display: none;
